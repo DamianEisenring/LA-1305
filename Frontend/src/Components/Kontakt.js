@@ -1,12 +1,13 @@
 import React from 'react';
+import './Kontakt.css';
 
-function Kontakt() {
+function KontaktPage() {
     return (
-        <div>
+        <div className="container">
             <h1>Kontakt</h1>
-            <p>Hier sind unsere Kontaktinformationen.</p>
+            <p>E-Mail: Igelify_ist_die_best_Firma@Igelify.nl <br /> Telefon: +31 187 420 69 69 <br /> </p>
         </div>
     );
 }
 
-export default Kontakt;
+export default KontaktPage;
