@@ -1,13 +1,13 @@
+// DienstleistungenPage.jsx
 import React from 'react';
-import './Dienstleistungen.css';
 
-function DienstleistungenPage() {
+function Dienstleistungen() {
     return (
-        <div className="container">
+        <div>
             <h1>Unsere Dienstleistungen</h1>
-            <p>Wir bieten eine Vielzahl von Dienstleistungen rund um den Pilzigel an, beispielsweise die Pilzschere:<br /> <img src='./img/Pilzschere.jpeg'/> </p> <br /> <br /> Den Igepilzhut:  <br /> <img src='./img/Pilzhut.jpeg' /> <br /> und noch viele weitere Produkte.
+            <p>Hier findest du Informationen über die Dienstleistungen, die wir anbieten.</p>
         </div>
     );
 }
 
-export default DienstleistungenPage;
+export default Dienstleistungen;

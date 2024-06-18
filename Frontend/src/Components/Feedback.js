@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Feedback.css';
 
 function Feedback() {
     const [name, setName] = useState('');

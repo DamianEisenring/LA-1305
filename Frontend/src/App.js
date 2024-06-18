@@ -6,15 +6,15 @@ import DienstleistungenPage from './Components/Dienstleistungen';
 import KontaktPage from './Components/Kontakt';
 import FeedbackPage from './Components/Feedback';
 import LandingPage from './Components/LandingPage'; 
-import './App.css';
+
 
 function App() {
     return (
         <Router>
-            <div id="page">
+            <div>
                 <Navigation />
                 <Routes>
-                    <Route path="/" element={<LandingPage />} /> {/* Landingpage als Startseite */}
+                <Route path="/" element={<LandingPage />} /> {/* Landingpage als Startseite */}
                     <Route path="/geschichte" element={<GeschichtePage />} />
                     <Route path="/dienstleistungen" element={<DienstleistungenPage />} />
                     <Route path="/kontakt" element={<KontaktPage />} />
